@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+
+  mongodb:
+    image: "mongo:3.2"
+    restart: always
+    user: "mongodb"
+
+  redis:
+    image: redis
+    restart: always
+

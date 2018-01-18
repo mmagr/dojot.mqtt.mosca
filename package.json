@@ -1,0 +1,28 @@
+{
+  "name": "dojot.mqtt.mosca",
+  "version": "1.0.0",
+  "description": "MQTT agent with embedded mosca broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmagr/dojot.mqtt.mosca.git"
+  },
+  "keywords": [
+    "MQTT",
+    "mosca",
+    "dojot"
+  ],
+  "author": "Matheus Magalhaes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mmagr/dojot.mqtt.mosca/issues"
+  },
+  "homepage": "https://github.com/mmagr/dojot.mqtt.mosca#readme",
+  "dependencies": {
+    "mosca": "^2.7.0",
+    "redis": "^2.8.0"
+  }
+}
